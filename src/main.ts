@@ -1,6 +1,8 @@
 import { createApp, ref } from 'vue';
 import App from './App.vue';
 import { router } from './router';
+import Antd from 'ant-design-vue';
+import 'ant-design-vue/dist/antd.css';
 
 import 'virtual:windi.css';
 import 'virtual:windi-devtools';
@@ -11,5 +13,6 @@ app.config.globalProperties.$loading = {
   childLoading: ref(false),
 };
 app.use(router);
-console.log(router);
+app.use(Antd);
+
 app.mount('#app');
