@@ -10,7 +10,7 @@
   "dependencies": {
     "ant-design-vue": "^3.0.0-beta.3",
     "vue": "^3.2.25",
-    "vue-router": "^3.5.3"
+    "vue-router": "^4.0.12"
   },
   "devDependencies": {
     "@tencent/eslint-config-tencent": "^0.16.0",
